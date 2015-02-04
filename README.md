@@ -1,4 +1,4 @@
-= SSO Password Handler
+# SSO Password Handler
 
 Allows bulk-updating stored passwords for a given username on sites under a
 given domain.
@@ -7,19 +7,19 @@ given domain.
 could easily wipe out your stored passwords. You may want to back up the
 `signons.sqlite` file in your Firefox profile directory regularly.
 
-== Installation
+## Installation
 
 Download `@sso-password-handler.xpi` and use `File` → `Open` to open it in
 Firefox.
 
-== Creating the XPI from source
+## Creating the XPI from source
 
-# `git clone https://github.com/rfreebern/sso-password-handler.git`
-# `sudo npm install -g jpm`
-# `cd sso-password-handler`
-# `jpm xpi`
+1. `git clone https://github.com/rfreebern/sso-password-handler.git`
+2. `sudo npm install -g jpm`
+3. `cd sso-password-handler`
+4. `jpm xpi`
 
-== License
+## License
 
 To the extent possible under law, Ryan Freebern has waived all copyright and
 related or neighboring rights to this work. [CC0](http://creativecommons.org/publicdomain/zero/1.0/)
