@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="charset" value="utf-8">
+    <style type="text/css">
+        #sso span { display: block; clear: both; width: 100%; text-align: right; }
+        #update { width: 100%; }
+        #status { display: none; }
+    </style>
+</head>
+<body>
+    <h1>SSO Password Changer</h1>
+    <hr/>
+    <form id="sso">
+        <p>Update all saved credentials on sites
+            <span>under domain <input type="text" name="domain" placeholder="domain.com" size="16"></span>
+            <span>where username is <input type="text" name="username" placeholder="you@example.com" size="16"></span>
+            <span>with password <input type="password" name="password" size="16"></span>
+        <p>
+        <p>
+            <input type="submit" value="Update" id="update">
+        </p>
+    </form>
+    <hr/>
+    <p id="status">
+        <img src="throbber.gif" width="16" height="16" id="statusicon">
+        Updated <span id="num">0</span> credentials.
+    <p>
+</body>
+</html>

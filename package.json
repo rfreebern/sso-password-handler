@@ -1,0 +1,13 @@
+{
+  "title": "SSO Password Handler",
+  "name": "sso-password-handler",
+  "version": "0.0.1",
+  "description": "Updates all stored passwords for a given account on all sites under a given domain.",
+  "main": "index.js",
+  "author": "Ryan N. Freebern / ryan@freebern.org",
+  "engines": {
+    "firefox": ">=33.0a1",
+    "fennec": ">=33.0a1"
+  },
+  "license": "CC0"
+}
